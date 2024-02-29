@@ -4,8 +4,8 @@ python:
 # command to install dependencies
 install:
   - pip install -r requirements.txt
-before_script:
-  - python3 manage.py migrate
+# before_script:
+#   - python3 manage.py migrate
 # command to run tests
 script: 
   - black --check .
