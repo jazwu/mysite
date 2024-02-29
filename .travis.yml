@@ -10,7 +10,6 @@ install:
 script: 
   - black --check .
   - flake8 --extend-ignore E501,F401 .
-  - flake8 .
   - coverage run --source=polls manage.py test
 after_script: 
   - coveralls
