@@ -21,6 +21,7 @@ deploy:
   region: "us-east-2"
   app: "mysite"
   env: "mysite-dev"
+  bucket_name: "s3-bucket"
   on:
     repo: jazwu/mysite
     branch: main
