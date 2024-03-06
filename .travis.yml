@@ -20,3 +20,6 @@ deploy:
   region: "us-east-2"
   app: "mysite"
   env: "mysite-dev"
+  on:
+    repo: jazwu/mysite
+    branch: main
