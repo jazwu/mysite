@@ -3,3 +3,5 @@
 [![Coverage Status](https://coveralls.io/repos/github/jazwu/mysite/badge.svg?branch=main)](https://coveralls.io/github/jazwu/mysite?branch=main)
 
 Tutorial: https://docs.djangoproject.com/en/5.0/intro/tutorial01/
+
+Application URL: http://mysite-dev.us-west-2.elasticbeanstalk.com/polls/
