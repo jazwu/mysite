@@ -16,12 +16,11 @@ after_script:
 deploy:
   provider: elasticbeanstalk
   access_key_id: $ACCESSKEYID
-  secret_access_key: 
-    secure: $SECRETACCESSKEY
+  secret_access_key: $SECRETACCESSKEY
   region: "us-east-2"
   app: "mysite"
   env: "mysite-dev"
-  bucket_name: "S3 Bucket"
+  bucket_name: "elasticbeanstalk-us-west-2-339712798911"
   on:
     repo: jazwu/mysite
     branch: main
